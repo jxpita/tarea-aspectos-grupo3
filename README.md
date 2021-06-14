@@ -10,7 +10,7 @@ Se implementaron 3 pointcuts diferentes para detectar el cambio de color en el f
 Cada pointcut intercepta a las funciones correspondientes que producen un ActionEvent (a su vez producido por aplastar un botón).
 
 
-**Aplicación en ejecución:**
+*Aplicación en ejecución:*
 
 ![image](https://user-images.githubusercontent.com/34144827/121854624-07181680-ccb8-11eb-8c92-87d54d7d4e5a.png)
 
