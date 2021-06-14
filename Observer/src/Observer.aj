@@ -1,13 +1,13 @@
 public aspect Observer {
 	
-	pointcut cambioDeColor() : execution(void fondoTurquesa(..) );
-	after() : cambioDeColor() {
+	pointcut colorTurquesa() : execution(void fondoTurquesa(..) );
+	after() : colorTurquesa() {
 		System.out.println("Cambio de color a Turquesa");
 	}
 
 	pointcut colorCarmin() : execution(void fondoCarmin(..) );
 	after() : colorCarmin() {
-		System.out.println("Cambio de color a Carmín");
+		System.out.println("Cambio de color a CarmÃ­n");
 	}
 	
 	pointcut colorMorado() : execution(void fondoMorado(..) );
