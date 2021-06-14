@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="container" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ObserverController">
+   <children>
+      <Button fx:id="turquesa" focusTraversable="false" layoutX="75.0" layoutY="175.0" mnemonicParsing="false" onAction="#fondoTurquesa" prefHeight="50.0" prefWidth="100.0" text="Turquesa">
+         <tooltip>
+            <Tooltip text="Pulse el botón para cambiar el color del fondo a turquesa">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Tooltip>
+         </tooltip>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="carmin" focusTraversable="false" layoutX="250.0" layoutY="175.0" mnemonicParsing="false" onAction="#fondoCarmin" prefHeight="50.0" prefWidth="100.0" text="Carmín">
+         <tooltip>
+            <Tooltip text="Pulse el botón para cambiar el color del fondo a carmín">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Tooltip>
+         </tooltip>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="morado" focusTraversable="false" layoutX="425.0" layoutY="175.0" mnemonicParsing="false" onAction="#fondoMorado" prefHeight="50.0" prefWidth="100.0" text="Morado">
+         <tooltip>
+            <Tooltip text="Pulse el botón para cambiar el color del fondo a morado">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Tooltip>
+         </tooltip>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

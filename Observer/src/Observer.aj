@@ -2,17 +2,17 @@ public aspect Observer {
 	
 	pointcut cambioDeColor() : execution(void fondoTurquesa(..) );
 	after() : cambioDeColor() {
-		System.out.println("Cambio de color a Turquesa\n");
+		System.out.println("Cambio de color a Turquesa");
 	}
 
 	pointcut colorCarmin() : execution(void fondoCarmin(..) );
 	after() : colorCarmin() {
-		System.out.println("Cambio de color a Carmín\n");
+		System.out.println("Cambio de color a Carmín");
 	}
 	
 	pointcut colorMorado() : execution(void fondoMorado(..) );
 	after() : colorMorado() {
-		System.out.println("Cambio de color a Morado\n");
+		System.out.println("Cambio de color a Morado");
 	}
 	
 }
