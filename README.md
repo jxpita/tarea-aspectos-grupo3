@@ -14,9 +14,9 @@ Cada pointcut intercepta a las funciones correspondientes que producen un Action
 
 ![image](https://user-images.githubusercontent.com/34144827/121854624-07181680-ccb8-11eb-8c92-87d54d7d4e5a.png)
 
-![image](https://user-images.githubusercontent.com/34144827/121854708-22832180-ccb8-11eb-8b7a-a92abcb4f74b.png)
+![image](https://user-images.githubusercontent.com/34144827/121855009-7b52ba00-ccb8-11eb-9ae4-99ca04b8b20a.png)
 
-![image](https://user-images.githubusercontent.com/34144827/121854741-2c0c8980-ccb8-11eb-8d7a-24f522f9287b.png)
+![image](https://user-images.githubusercontent.com/34144827/121855057-89a0d600-ccb8-11eb-9fc2-3c64a708c9e6.png)
 
-![image](https://user-images.githubusercontent.com/34144827/121854768-362e8800-ccb8-11eb-8cc1-b49fc295f2b8.png)
+![image](https://user-images.githubusercontent.com/34144827/121855079-91607a80-ccb8-11eb-94f6-3e736ba0f658.png)
 
